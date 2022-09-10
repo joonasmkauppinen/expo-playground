@@ -1,4 +1,7 @@
 {
   "version": 2,
-  "projects": {}
+  "projects": {
+    "expo-playground": "apps/expo-playground",
+    "expo-playground-e2e": "apps/expo-playground-e2e"
+  }
 }
