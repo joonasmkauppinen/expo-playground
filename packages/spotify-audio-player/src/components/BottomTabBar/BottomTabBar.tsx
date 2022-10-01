@@ -1,15 +1,8 @@
-import styled from '@emotion/native';
 import { clamp } from '@internal/reanimated-helpers';
-import {
-  BottomTabBar,
-  BottomTabBarProps,
-  useBottomTabBarHeight,
-} from '@react-navigation/bottom-tabs';
+import { BottomTabBar, BottomTabBarProps } from '@react-navigation/bottom-tabs';
 import { Dimensions } from 'react-native';
 import { PanGestureHandlerGestureEvent } from 'react-native-gesture-handler';
 import Animated, {
-  Extrapolate,
-  interpolate,
   useAnimatedGestureHandler,
   useAnimatedStyle,
   useSharedValue,
