@@ -1,5 +1,5 @@
 module.exports = {
-  displayName: 'spotify-audio-player',
+  displayName: 'demos-spotify-audio-player',
   resolver: '@nrwl/jest/plugins/resolver',
   preset: 'jest-expo',
   transformIgnorePatterns: [

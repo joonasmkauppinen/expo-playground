@@ -4,7 +4,7 @@ import {
   Inter_500Medium,
   Inter_700Bold,
 } from '@expo-google-fonts/inter';
-import { SpotifyPlayerApp } from '@project/spotify-audio-player';
+import { SpotifyPlayerApp } from '@expo-playground/demos-spotify-audio-player';
 import { StatusBar } from 'react-native';
 
 export const App = () => {

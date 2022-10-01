@@ -1,9 +1,9 @@
 {
   "version": 2,
   "projects": {
+    "demos-spotify-audio-player": "packages/demos/spotify-audio-player",
     "expo-playground": "apps/expo-playground",
     "expo-playground-e2e": "apps/expo-playground-e2e",
-    "reanimated-helpers": "packages/reanimated-helpers",
-    "spotify-audio-player": "packages/spotify-audio-player"
+    "reanimated-helpers": "packages/reanimated-helpers"
   }
 }

@@ -15,11 +15,11 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@expo-playground/demos-spotify-audio-player": [
+        "packages/demos/spotify-audio-player/src/index.ts"
+      ],
       "@internal/reanimated-helpers": [
         "packages/reanimated-helpers/src/index.ts"
-      ],
-      "@project/spotify-audio-player": [
-        "packages/spotify-audio-player/src/index.ts"
       ]
     }
   },

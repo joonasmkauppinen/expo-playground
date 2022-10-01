@@ -1,6 +1,6 @@
 {
-  "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "packages/spotify-audio-player/src",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/demos/spotify-audio-player/src",
   "projectType": "library",
   "tags": [],
   "targets": {
@@ -9,15 +9,15 @@
       "outputs": ["{options.outputFile}"],
       "options": {
         "lintFilePatterns": [
-          "packages/spotify-audio-player/**/*.{ts,tsx,js,jsx}"
+          "packages/demos/spotify-audio-player/**/*.{ts,tsx,js,jsx}"
         ]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/packages/spotify-audio-player"],
+      "outputs": ["coverage/packages/demos/spotify-audio-player"],
       "options": {
-        "jestConfig": "packages/spotify-audio-player/jest.config.ts",
+        "jestConfig": "packages/demos/spotify-audio-player/jest.config.ts",
         "passWithNoTests": true
       }
     }
