@@ -1,0 +1,12 @@
+import Svg, { Path } from 'react-native-svg';
+
+import { DEFAULT_ICON_COLOR, IconProps } from './IconProps';
+
+export const IconHomeFilled = ({ color = DEFAULT_ICON_COLOR }: IconProps) => (
+  <Svg width="24" height="25" viewBox="0 0 24 25" fill="none">
+    <Path
+      d="M2 9.05501C2 8.36761 2.35302 7.72838 2.93482 7.36227L10.4027 2.663C11.3793 2.04846 12.6218 2.04849 13.5984 2.66308L21.0653 7.36226C21.647 7.72837 22 8.36758 22 9.05495V22.2982C22 22.8505 21.5523 23.2982 21 23.2982H14.9961C14.4438 23.2982 13.9961 22.8505 13.9961 22.2982V16.2718H10L10 22.2724C10 22.8247 9.55229 23.2724 9 23.2724H3C2.44772 23.2724 2 22.8247 2 22.2724V9.05501Z"
+      fill={color}
+    />
+  </Svg>
+);

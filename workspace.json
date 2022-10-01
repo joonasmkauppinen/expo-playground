@@ -2,6 +2,8 @@
   "version": 2,
   "projects": {
     "expo-playground": "apps/expo-playground",
-    "expo-playground-e2e": "apps/expo-playground-e2e"
+    "expo-playground-e2e": "apps/expo-playground-e2e",
+    "reanimated-helpers": "packages/reanimated-helpers",
+    "spotify-audio-player": "packages/spotify-audio-player"
   }
 }

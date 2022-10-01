@@ -14,7 +14,14 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@internal/reanimated-helpers": [
+        "packages/reanimated-helpers/src/index.ts"
+      ],
+      "@project/spotify-audio-player": [
+        "packages/spotify-audio-player/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
