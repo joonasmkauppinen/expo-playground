@@ -4,7 +4,8 @@ import {
   Inter_500Medium,
   Inter_700Bold,
 } from '@expo-google-fonts/inter';
-import { SpotifyPlayerApp } from '@expo-playground/demos-spotify-audio-player';
+import { AppSwitcherScreen } from '@expo-playground/app-switcher';
+import { Suspense } from 'react';
 import { StatusBar } from 'react-native';
 
 export const App = () => {
@@ -19,9 +20,9 @@ export const App = () => {
   }
 
   return (
-    <>
-      <StatusBar barStyle="dark-content" />
-      <SpotifyPlayerApp />
-    </>
+    <Suspense fallback={null}>
+      <StatusBar barStyle="light-content" />
+      <AppSwitcherScreen />
+    </Suspense>
   );
 };

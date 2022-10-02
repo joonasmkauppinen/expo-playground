@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@expo-playground/app-switcher": ["packages/app-switcher/src/index.ts"],
       "@expo-playground/demos-spotify-audio-player": [
         "packages/demos/spotify-audio-player/src/index.ts"
       ],

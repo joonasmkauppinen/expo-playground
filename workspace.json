@@ -1,6 +1,7 @@
 {
   "version": 2,
   "projects": {
+    "app-switcher": "packages/app-switcher",
     "demos-spotify-audio-player": "packages/demos/spotify-audio-player",
     "expo-playground": "apps/expo-playground",
     "expo-playground-e2e": "apps/expo-playground-e2e",
