@@ -3,6 +3,7 @@
   "projects": {
     "app-switcher": "packages/app-switcher",
     "demos-spotify-audio-player": "packages/demos/spotify-audio-player",
+    "demos-svg-line-animation": "packages/demos/svg-line-animation",
     "expo-playground": "apps/expo-playground",
     "expo-playground-e2e": "apps/expo-playground-e2e",
     "reanimated-helpers": "packages/reanimated-helpers"

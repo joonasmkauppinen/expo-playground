@@ -1,0 +1,1 @@
+export { SVGLineAnimationApp } from './main';

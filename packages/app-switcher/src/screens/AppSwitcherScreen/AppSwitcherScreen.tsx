@@ -1,6 +1,7 @@
 import { ListItem, ListItemProps } from '../../components/ListItem/ListItem';
 import { TitleSection } from '../../components/TitleSection/TitleSection';
 import { IconSpotifyAudioPlayer } from '../../components/icons/IconSpotifyAudioPlayer';
+import { IconSvgLineAnimationApp } from '../../components/icons/IconSvgLineAnimationApp';
 import { DemoAppContainerScreen } from '../DemoAppContainerScreen/DemoAppContainerScreen';
 
 import {
@@ -18,11 +19,12 @@ const listItems: ListItemProps[] = [
   {
     id: 'svg-line-animation',
     title: 'SVG line animation',
+    icon: IconSvgLineAnimationApp,
   },
-  // {
-  //   id: 'tic-tack-toe',
-  //   title: 'Tic Tac Toe',
-  // },
+  {
+    id: 'tic-tack-toe',
+    title: 'Tic Tac Toe',
+  },
   // {
   //   id: 'shared-element-transition',
   //   title: 'Shared element transition',

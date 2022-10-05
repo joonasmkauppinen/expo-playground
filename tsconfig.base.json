@@ -19,6 +19,9 @@
       "@expo-playground/demos-spotify-audio-player": [
         "packages/demos/spotify-audio-player/src/index.ts"
       ],
+      "@expo-playground/demos/svg-line-animation": [
+        "packages/demos/svg-line-animation/src/index.ts"
+      ],
       "@internal/reanimated-helpers": [
         "packages/reanimated-helpers/src/index.ts"
       ]

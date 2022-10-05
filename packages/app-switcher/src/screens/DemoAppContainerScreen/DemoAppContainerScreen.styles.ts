@@ -9,6 +9,7 @@ export const ContainerView = styled(Animated.View)({
   right: 0,
   backgroundColor: '#272727',
   borderRadius: 14,
+  overflow: 'hidden',
 });
 
 export const DemoAppWrapperView = styled(Animated.View)({

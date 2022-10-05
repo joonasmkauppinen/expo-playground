@@ -1,0 +1,26 @@
+{
+  "name": "demos-svg-line-animation",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/demos/svg-line-animation/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "packages/demos/svg-line-animation/**/*.{ts,tsx,js,jsx}"
+        ]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/packages/demos/svg-line-animation"],
+      "options": {
+        "jestConfig": "packages/demos/svg-line-animation/jest.config.ts",
+        "passWithNoTests": true
+      }
+    }
+  }
+}
