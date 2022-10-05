@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "ExpoPlayground",
+    "name": "Playground App",
     "slug": "expo-playground",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -8,12 +8,15 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000000"
     },
     "updates": {
-      "fallbackToCacheTimeout": 0
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/e1b233d8-53f2-46f8-b7ac-4f0f95dcbe6d"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "expo-playground"
@@ -21,11 +24,20 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "backgroundColor": "#000000"
+      },
+      "package": "com.joonasmkauppinen.expoplayground"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e1b233d8-53f2-46f8-b7ac-4f0f95dcbe6d"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
     }
   }
 }
