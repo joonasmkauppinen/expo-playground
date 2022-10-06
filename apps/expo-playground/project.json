@@ -9,6 +9,14 @@
         "port": 8081
       }
     },
+    "update": {
+      "executor": "@nrwl/expo:update",
+      "options": {}
+    },
+    "build": {
+      "executor": "@nrwl/expo:build",
+      "options": {}
+    },
     "web": {
       "executor": "@nrwl/expo:start",
       "options": {
@@ -34,10 +42,7 @@
         "platform": "android"
       }
     },
-    "build": {
-      "executor": "@nrwl/expo:build",
-      "options": {}
-    },
+
     "build-list": {
       "executor": "@nrwl/expo:build-list",
       "options": {}
