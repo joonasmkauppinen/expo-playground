@@ -22,6 +22,9 @@
       "@expo-playground/demos/svg-line-animation": [
         "packages/demos/svg-line-animation/src/index.ts"
       ],
+      "@expo-playground/demos/tic-tac-toe": [
+        "packages/demos/tic-tac-toe/src/index.ts"
+      ],
       "@internal/reanimated-helpers": [
         "packages/reanimated-helpers/src/index.ts"
       ]

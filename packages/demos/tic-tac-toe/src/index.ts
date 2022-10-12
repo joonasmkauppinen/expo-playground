@@ -1,0 +1,1 @@
+export { TicTacToeApp } from './main';

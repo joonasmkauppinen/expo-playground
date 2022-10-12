@@ -1,0 +1,24 @@
+{
+  "name": "demos-tic-tac-toe",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/demos/tic-tac-toe/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["packages/demos/tic-tac-toe/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/packages/demos/tic-tac-toe"],
+      "options": {
+        "jestConfig": "packages/demos/tic-tac-toe/jest.config.ts",
+        "passWithNoTests": true
+      }
+    }
+  }
+}

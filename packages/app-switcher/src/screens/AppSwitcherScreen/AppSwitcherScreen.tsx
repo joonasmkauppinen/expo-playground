@@ -2,6 +2,7 @@ import { ListItem, ListItemProps } from '../../components/ListItem/ListItem';
 import { TitleSection } from '../../components/TitleSection/TitleSection';
 import { IconSpotifyAudioPlayer } from '../../components/icons/IconSpotifyAudioPlayer';
 import { IconSvgLineAnimationApp } from '../../components/icons/IconSvgLineAnimationApp';
+import { IconTicTacToeApp } from '../../components/icons/IconTicTacToeApp';
 import { DemoAppContainerScreen } from '../DemoAppContainerScreen/DemoAppContainerScreen';
 
 import {
@@ -24,11 +25,20 @@ const listItems: ListItemProps[] = [
   {
     id: 'tic-tack-toe',
     title: 'Tic Tac Toe',
+    icon: IconTicTacToeApp,
   },
-  // {
-  //   id: 'shared-element-transition',
-  //   title: 'Shared element transition',
-  // },
+  {
+    id: 'shared-element-transition',
+    title: 'Shared element transition (todo)',
+  },
+  {
+    id: 'layout-animation',
+    title: 'Layout animation (todo)',
+  },
+  { id: 'liquid-swipe', title: 'Liquid swipe (todo)' },
+  { id: 'ray-casting', title: 'Ray casting (todo)' },
+  { id: 'three-js', title: 'Three.js (todo)' },
+  { id: 'three-js-flat-list-swipe', title: 'Three.js FlatList swipe (todo)' },
 ];
 
 export const AppSwitcherScreen = () => {
